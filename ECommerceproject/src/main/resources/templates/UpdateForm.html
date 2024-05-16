@@ -1,0 +1,19 @@
+<html xmlns="http://www.thymeleaf.org">
+	<head>
+		
+	</head>
+	<body>
+		<div>
+			<h1>AddStudent</h1>
+			<hr>
+			<form th:action="@{/student/update}" th:object="${student}" method="post">
+				
+				Name<input type="text" th:field="*{name}" placeholder="name" th:value="${student.name}"><br>
+				section<input type="text" th:field="*{section}" placeholder="section" th:value="${student.section}"><br>
+				gender<input type="text" th:field="*{gender}" placeholder="gender" th:value="${student.gender}"><br>
+				city<input type="text" th:field="*{city}" placeholder="city" th:value="${student.city}"><br>
+				<input type="submit" value="save">
+				
+			</form>
+		</div>
+	</body>
