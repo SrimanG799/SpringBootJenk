@@ -73,6 +73,6 @@ Logger log=	LoggerFactory.getLogger(StudentControll.class);
          @GetMapping("/jenkMessage")
 public String msg()
 {
-return "Helloo Jenk2hghghg";
+return "Helloo Jenk2hghghggggggg";
 
 }
