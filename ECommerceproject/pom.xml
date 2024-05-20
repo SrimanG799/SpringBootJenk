@@ -93,7 +93,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>ECommerce1</finalName>
+		
 	</build>
 
 </project>
